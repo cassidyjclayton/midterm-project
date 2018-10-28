@@ -1,4 +1,9 @@
 
+body {
+	background image
+}
+
+
 /*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 STYLES
@@ -29,5 +34,23 @@ https://www.w3schools.com/howto/howto_css_cards.asp
 }
 
 .non-icon-link {
-	
+
+}
+/** Grid styles/arrangement*/
+
+.lead {
+
+}
+
+.strong-follow {
+
+
+}
+
+.weak-follow {
+
+}
+
+.terminal {
+
 }
