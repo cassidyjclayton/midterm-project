@@ -1,7 +1,22 @@
 
 body {
-	height: 100%;
+	background-image: url(../img/mountains.jpg);
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	background-color: #bfe665;
+	font-family: 'Roboto', sans-serif;
 }
+
+h1 {
+	font-family: 'Homemade Apple', cursive;
+}
+h2 {
+	font-family: 'Charmonman', cursive;
+}
+
 
 
 /*
@@ -14,28 +29,31 @@ STYLES
 https://www.w3schools.com/howto/howto_css_cards.asp
 */
 .wrapper {
-	max-width: 1500px;
+	max-width: 2000px;
 	margin: 0 20px;
 	display: flex;
+	flex-direction: row;
 	flex-wrap: wrap;
+	justify-content: center;
 	align-content: center;
 	}
 .card {
     /* Add shadows to create the "card" effect */
   	margin: 10px;
-    max-width: 300px;
+    max-width: 260px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    flex
+    background-color: #3f4a4a;
+    color: #a2cdcc;
     border-radius: 10px;
 }
 
 .card img {
-	margin: 10px;
+	margin: 15px;
 }
 /* On mouse-over, add a deeper shadow */
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 12px 36px 0 #597613;
 }
 
 /* Add some padding inside the card container */
@@ -44,22 +62,38 @@ https://www.w3schools.com/howto/howto_css_cards.asp
 }
 
 .fa {
-	color: #60bf40;
+	color: #7aa21a;
+}
+.fa .non-icon-link a:hover {
+	cursor: pointer;
 }
 
 .non-icon-link {
-
+	color: white;
 }
 /** Grid styles/arrangement*/
-
-.hero-img {
-	background-image: url(../img/mountains.jpg);
-	height: 50%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
+.profile-header {
+	background-color: #3f4a4a;
+	color: #a2cdcc;
+	margin-left: -20px;
+	margin-right: -20px;
+	padding: 40px;
+	box-shadow: 0px 4px 8px #597613;
+	font-family: 'Homemade Apple', cursive;
+	letter-spacing: 
 }
+
+.profile-footer {
+	background-color: #3f4a4a;
+	color: #a2cdcc;
+	margin-left: -20px;
+	margin-right: -20px;
+	padding: 40px;
+	box-shadow: 0px 4px 8px #597613;
+	font-family: 'Charmonman', cursive;
+}
+}
+
 
 .lead {
 
