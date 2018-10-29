@@ -12,12 +12,16 @@ body {
 
 h1 {
 	font-family: 'Homemade Apple', cursive;
+	color: white;
 }
 h2 {
 	font-family: 'Charmonman', cursive;
 }
 
-
+a:hover {
+	cursor: pointer;
+	
+}
 
 /*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -62,25 +66,25 @@ https://www.w3schools.com/howto/howto_css_cards.asp
 }
 
 .fa {
-	color: #7aa21a;
-}
-.fa .non-icon-link a:hover {
-	cursor: pointer;
+	color: white;
 }
 
 .non-icon-link {
 	color: white;
+	text-decoration: none;
+
 }
 /** Grid styles/arrangement*/
+
 .profile-header {
 	background-color: #3f4a4a;
-	color: #a2cdcc;
+	color: #deeded;
 	margin-left: -20px;
 	margin-right: -20px;
 	padding: 40px;
 	box-shadow: 0px 4px 8px #597613;
 	font-family: 'Homemade Apple', cursive;
-	letter-spacing: 
+	
 }
 
 .profile-footer {
@@ -88,27 +92,36 @@ https://www.w3schools.com/howto/howto_css_cards.asp
 	color: #a2cdcc;
 	margin-left: -20px;
 	margin-right: -20px;
+	margin-top: 15px;
 	padding: 40px;
 	box-shadow: 0px 4px 8px #597613;
 	font-family: 'Charmonman', cursive;
 }
+
+.grid-container {
+	grid-template-columns:25% 25% 25% 25%;
+	grid-template-rows: auto;
+	grid grid-template-areas: 
+	"lead . . strong-follow"
+	". hero-img hero-img ."
+	"weak-follow . . terminal"
+
 }
 
-
 .lead {
-
+	grid-area: "lead";
 }
 
 .strong-follow {
-
-
+	grid area: "strong-follow";
+	background-color: #3f4a4a;
 }
 
 .weak-follow {
-
+	grid-area: weak-follow;
+	background-color: #3f4a4a;
 }
 
 .terminal {
-
+	grid-area: terminal;
 }
-
