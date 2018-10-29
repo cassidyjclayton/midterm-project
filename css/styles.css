@@ -1,0 +1,151 @@
+
+body {
+	background-image: url(../img/mountains.jpg);
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	background-color: #bfe665;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	font-family: 'Homemade Apple', cursive;
+	color: white;
+}
+h2 {
+	font-family: 'Charmonman', cursive;
+}
+
+a:hover {
+	cursor: pointer;
+	
+}
+
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+STYLES
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
+
+/* Style base borrowed shamelessly from 
+https://www.w3schools.com/howto/howto_css_cards.asp
+*/
+.wrapper {
+	max-width: 2000px;
+	margin: 0 20px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	}
+.card {
+    /* Add shadows to create the "card" effect */
+  	margin: 10px;
+    max-width: 260px;
+    box-shadow: 0 4px 8px 0 #193952;
+    transition: 0.3s;
+    background-color: #3f4a4a;
+    color: #a2cdcc;
+    border-radius: 10px;
+}
+
+.card img {
+	margin: 15px;
+}
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 12px 36px 0 #193952;
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}
+
+.fa {
+	color: white;
+}
+
+.non-icon-link {
+	color: white;
+	text-decoration: none;
+
+}
+/** Grid styles/arrangement*/
+
+.profile-header {
+	background-color: #3f4a4a;
+	color: #deeded;
+	margin-left: -20px;
+	margin-right: -20px;
+	padding: 40px;
+	box-shadow: 0px 4px 8px #193952;
+	font-family: 'Homemade Apple', cursive;
+	
+}
+
+.profile-footer {
+	background-color: #3f4a4a;
+	color: #a2cdcc;
+	margin-left: -20px;
+	margin-right: -20px;
+	margin-top: 15px;
+	padding: 40px;
+	box-shadow: 0px 4px 8px #193952;
+	font-family: 'Charmonman', cursive;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: [line1] 25% 
+		[line2] 25% [line3] 25%% [line4] 
+			25% [line5] 25% [line6];
+  grid-template-rows: [row1-start] 25% [row1-end row2-start
+  		50% [row2-end row3-start] 25% [row3-end];
+	
+	justify-content: stretch;
+	margin: 50px;
+	padding: 20px;
+}
+
+.lead {
+	grid-column-start: line1;
+  	grid-column-end: line3;
+  	grid-row-start: row1-start;
+  	grid-row-end: row1-end;
+	margin: 20px;
+	padding:20px;
+}
+
+.strong-follow {
+	grid-column-start: line3;
+  	grid-column-end: line6;
+  	grid-row-start: row1-start;
+  	grid-row-end: row1-end;
+	background-color: #3f4a4a;
+	margin: 20px;
+  	padding: 20px;
+}
+
+
+.weak-follow {
+	background-color: #3f4a4a;
+	grid-column-start: line1;
+  	grid-column-end: line3;
+  	grid-row-start: row3-start;
+  	grid-row-end: row3-end;
+  	padding: 20px;
+}
+
+.terminal {
+	grid-area: "terminal";
+	grid-column-start: line5;
+  	grid-column-end: line6;
+  	grid-row-start: row3-start;
+  	grid-row-end: row3-end;
+  	margin: 20px;
+  	padding: 20px;
+}
