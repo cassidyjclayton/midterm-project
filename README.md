@@ -17,10 +17,10 @@ The CSS structure I rigged up quickly, for the CSS styles. The base level is jus
 is where I put the styling that relies on user interaction--mostly just the a:hover. Stick-Ons are the classes and such, that
 can be tacked on to other elements. 
 
-*Age  
-*Climbing Discipline  
-*Also Known For/Fun Fact  
-*Instagram Button and Handle  
+* Age  
+* Climbing Discipline  
+* Also Known For/Fun Fact  
+* Instagram Button and Handle  
 
 ## Choreography
 The Z-pattern was implemented on the index/landing page, following the (Gutenberg?) pattern--a primary(or, as I classed it,
