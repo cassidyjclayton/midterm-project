@@ -29,7 +29,7 @@ The Z-pattern was implemented on the index/landing page, following the (Gutenber
 goal was to get them to sign up for an imaginary newsletter. To that end, I placed the email signup in the weak follow section,
 where people tend to skim over unless they're invested, and the link to my second page in the terminal section, 
 where people tend to land. In the strong follow section, I gave what amounts to the subtitle of the site as well as a link to 
-follow me on instagram (that could be a third goal, I suppose, but I wanted another link and that seemed to work). 
+follow me on instagram (that could be a third goal, I suppose, but I wanted another link and that seemed to work).  
   
 To draw the user's eye through the Z, though, I made the strong and weak follow have the same text color. The lead and 
 the terminal I made the same color for symmetry's sake. This demonstrates repetition. 
