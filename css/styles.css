@@ -1,4 +1,8 @@
-
+/* 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Base -- The core level of css styling 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*/
 body {
 	background-image: url(../img/mountains.jpg);
 	height: 50%;
@@ -31,17 +35,16 @@ input {
 }
 /* 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-BEHAVIOR
+Behavior -- interactions w/user
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 */
 a:hover {
 	cursor: pointer;
-	
 }
 
 /*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-STYLES
+Stick-Ons -- classes that can be placed on various elements
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 */
 
@@ -91,7 +94,7 @@ https://www.w3schools.com/howto/howto_css_cards.asp
 	text-decoration: none;
 
 }
-/** Grid styles/arrangement*/
+
 
 .profile-header {
 	background-color: #3f4a4a;

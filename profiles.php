@@ -1,6 +1,6 @@
-<?php include "inc/html-top.php" ?>
 <? $PageTitle = "climber-profiles"; ?>
-</head>
+<?php include "inc/html-top.php" ?>
+
 <body>
 	<header>
 		<h1 class="profile-header">Climber Profiles</h1>

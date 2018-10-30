@@ -1,5 +1,6 @@
-<?php include "inc/html-top.php" ?>
 <? $PageTitle = "girls-on-the-rocks"; ?>
+<?php include "inc/html-top.php" ?>
+
 
 <body class="z-patttern">
 	
