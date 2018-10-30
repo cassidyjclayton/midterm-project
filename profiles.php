@@ -1,5 +1,5 @@
+<?php include "inc/html-top.php" ?>
 <? $PageTitle = "climber-profiles"; ?>
-<?php include "inc/html-top"  ?>
 </head>
 <body>
 	<header>
@@ -288,7 +288,7 @@
 	</div>
 
 	<footer class="profile-footer">
-		<a href="index.html" class="non-icon-link"> ← Back to Main</a>
+		<a href="index.php" class="non-icon-link"> ← Back to Main</a>
 	</footer>
 
 </body>

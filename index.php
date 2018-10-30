@@ -1,5 +1,6 @@
+<?php include "inc/html-top.php" ?>
 <? $PageTitle = "girls-on-the-rocks"; ?>
-<?php include "inc/html-top"  ?>
+
 <body class="z-patttern">
 	
 	
@@ -33,7 +34,7 @@
 					</form>
 				</section>
 				<h2 class="terminal">
-					<a href="profiles.html" class="non-icon-link">Climber Profiles →</a> 
+					<a href="profiles.php" class="non-icon-link">Climber Profiles →</a> 
 				</h2>
 			</div>
 		</footer>
