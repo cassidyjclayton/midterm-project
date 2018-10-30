@@ -34,6 +34,8 @@ follow me on instagram (that could be a third goal, I suppose, but I wanted anot
 To draw the user's eye through the Z, though, I made the strong and weak follow have the same text color. The lead and 
 the terminal I made the same color for symmetry's sake. This demonstrates repetition. 
 
+I relied on dark and light contrast to make the text readable and user friendly, and  kept the color palette harmonious.
+
 All the links are white--originally the icon links were not, but it felt more intuitive if they matched up with the other links so that the user could more easily discern their purpose. This made use of the 'repetition' part of C.R.A.P. principles. The arrow cursor changes to a pointer whenever a link is hovered over as well, as a visual cue that the text (or icon) is clickable. For the small instagram icons, I felt that this was enough of a visual cue without being too obnoxious. For the navigation between the two pages, I added the unicode symbols for right and left arrows, because I felt that without it the navigation between pages was not clear enough. The "Climber Profile" navigation link is also located in the terminal section of the home page, connecting it to the next page in the site. The "Back to Main" navigation link is located in what would be the 'weak follow' section of a Z page, but a more weighty section of an F-styled page. Also, it's proximity to the "former" page (imagining it was laid out like a book whose pages you could turn) makes it a logical location. 
 
 ## Other Notes  
