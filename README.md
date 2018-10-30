@@ -22,6 +22,7 @@ can be tacked on to other elements.
 * Also Known For/Fun Fact  
 * Instagram Button and Handle  
 
+
 ## Choreography
 The Z-pattern was implemented on the index/landing page, following the (Gutenberg?) pattern--a primary(or, as I classed it,
 .lead), a strong follow, a weak follow, and a terminal. We were given two goals: to get users to read more, while the secondary
