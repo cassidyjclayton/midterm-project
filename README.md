@@ -40,4 +40,4 @@ All the links are white--originally the icon links were not, but it felt more in
 
 ## Other Notes  
 
-I really am pleased with how the card profiles turned out and the use of the instagram icons. This is possibly the project site that I am most proud of, thanks to its overal layout (and also color scheme and design). 
+I really am pleased with how the card profiles turned out and the use of the instagram icons. This is possibly the project site that I am most proud of, thanks to its overall layout (and also color scheme and design). 
